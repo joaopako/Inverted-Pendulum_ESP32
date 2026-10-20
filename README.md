@@ -1,6 +1,7 @@
 # Inverted Pendulum ESP32
 This project is an implementation of an inverted pendulum system using an ESP32 microcontroller. The inverted pendulum is a classic problem in control theory and robotics, where the goal is to balance a pendulum in an upright position on a moving cart.
 
+![pendulum](/assets/pendulum.jpg)
 
 ## Components
 For this project, the following hardware components are used:
@@ -36,4 +37,8 @@ For this project, the following hardware components are used:
 
 ## Web Interface
 The project includes a web interface that allows users to monitor and control the inverted pendulum system remotely. The web interface provides real-time data visualization, control inputs, and system status updates. The ESP32 works as an Access Point (AP) and hosts a web server that serves the interface to connected clients.
-It contains the parameters of the PID controller, the setpoint, and the current angle of the pendulum. The web interface is built using HTML, CSS, and JavaScript, and it communicates with the ESP32 using WebSockets for real-time updates.  
+It contains the parameters of the PID controller, the setpoint, and the current angle of the pendulum. The web interface is built using HTML, CSS, and JavaScript, and it communicates with the ESP32 using WebSockets for real-time updates.
+
+## Credits & Acknowledgements
+
+* **3D Mechanical Design:** The physical structure—including the motor mount, encoder support, and base frame—is based on the 3D models created for the [Arduino Inverted Pendulum Project](https://projecthub.arduino.cc/Arduino_Genuino/arduino-uno-q-inverted-pendulum-pid-ui-e8833f) by MCMChris.
